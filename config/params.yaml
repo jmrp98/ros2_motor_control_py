@@ -1,0 +1,18 @@
+Motor_Controller_Node:
+  ros__parameters:
+    #motor_FR
+    FR_dev_name: ""
+    FR_ticks_per_rotation: None
+
+    #motor_FL
+    FL_dev_name: ""
+    FL_ticks_per_rotation: None
+
+    #motor_BR
+    BR_dev_name: ""
+    BR_ticks_per_rotation: None
+    
+    #motor_BL
+    BL_dev_name: ""
+    BL_ticks_per_rotation: None
+
