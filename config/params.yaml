@@ -1,18 +1,23 @@
-Motor_Controller_Node:
+Motor_Control:
   ros__parameters:
+    
     #motor_FR
-    FR_dev_name: ""
-    FR_ticks_per_rotation: None
-
+    FR_dev_name: "/dev/ttyACM0"
+    FR_ticks_per_rotation: 3000
+    FR_baudrate: 115200
+    
     #motor_FL
-    FL_dev_name: ""
+    FL_dev_name: "/dev/ttyACM1"
     FL_ticks_per_rotation: None
-
+    FL_baudrate: 115200
+    
     #motor_BR
     BR_dev_name: ""
     BR_ticks_per_rotation: None
+    BR_baudrate: 115200
     
     #motor_BL
     BL_dev_name: ""
     BL_ticks_per_rotation: None
+    BL_baudrate: 115200
 
